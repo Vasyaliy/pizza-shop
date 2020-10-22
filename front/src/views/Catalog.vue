@@ -22,7 +22,6 @@
         :product="product"
       />
     </div>
-    {{ cartProducts }}
   </div>
 </template>
 

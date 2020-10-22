@@ -14,7 +14,6 @@ app.use(cors())
 app
   .use(router.routes())
   .use(router.allowedMethods())
-  .use(router.allowedMethods())
 
 const httpServer = http.createServer(app.callback())
 httpServer.listen(process.env.PORT || 3000, () => {

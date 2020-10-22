@@ -18,8 +18,8 @@
           </button>
 
           <div
-            style="width: 80%; margin: auto;"
-            class="flex justify-between"
+            style="width: 100%; margin: auto;"
+            class="flex justify-between "
             v-else
           >
             <button
@@ -59,7 +59,7 @@ export default Vue.extend({
   },
 
   methods: {
-    ...mapMutations(['addProduct', 'changeCountOfProduct']),
+    ...mapMutations(['addProduct', 'changeCountOfProduct', 'deleteProduct']),
     incrementProduct () {
       this.changeCountOfProduct(this.product)
     }

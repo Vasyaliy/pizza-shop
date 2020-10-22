@@ -65,79 +65,121 @@ export const mockProducts = [
   },
   {
     id: 10,
-    name: 'Ромине',
-    price: 630,
-    image: 'https://dpr-cdn.azureedge.net/api/medium/ProductOsg/Global/_%D0%94%D0%9E%D0%9C%D0%98%D0%9D%D0%9E%D0%A1/NULL/270x270/RU?v=bdcd143961a64b8e0d905b6c57cf75fb-1603199520000',
-    ingredients: 'Бекон, Говядина, Грибы, Болгарский перец, Курица, Лук'
-  },
-  {
-    id: 11,
-    name: 'Домашняя',
-    price: 250,
-    image: 'https://dpr-cdn.azureedge.net/api/medium/ProductOsg/Global/_DOMSV/NULL/270x270/RU?v=bdcd143961a64b8e0d905b6c57cf75fb-1603199520000',
-    ingredients: 'Ветчина, Томаты, Соус, Сыр Моцарелла'
-  },
-  {
-    id: 12,
-    name: 'Гавайская',
-    price: 599,
-    image: 'https://dpr-cdn.azureedge.net/api/medium/ProductOsg/Global/%D0%93%D0%90%D0%92%D0%90/NULL/270x270/RU?v=bdcd143961a64b8e0d905b6c57cf75fb-1603199520000',
-    ingredients: 'Ананас, Ветчина, Сыр Моцарелла'
-  },
-  {
-    id: 13,
-    name: 'Пепперони',
-    price: 500,
-    image: 'https://dpr-cdn.azureedge.net/api/medium/ProductOsg/Global/%D0%9F%D0%95%D0%9F%D0%95/NULL/270x270/RU?v=bdcd143961a64b8e0d905b6c57cf75fb-1603199520000',
-    ingredients: 'Пепперони, Сыр Моцарелла'
-  },
-  {
-    id: 14,
-    name: '4 Сыра',
-    price: 800,
-    image: 'https://dpr-cdn.azureedge.net/api/medium/ProductOsg/Global/4CHEESE/NULL/270x270/RU?v=bdcd143961a64b8e0d905b6c57cf75fb-1603199520000',
-    ingredients: 'Соус Карбонара, Сыр Моцарелла, Сыр Пармезан, '
-  },
-  {
-    id: 15,
-    name: 'Веджи Fit & Fresh',
-    price: 859,
-    image: 'https://dpr-cdn.azureedge.net/api/medium/ProductOsg/Global/%D0%92%D0%95%D0%94%D0%96/NULL/270x270/RU?v=bdcd143961a64b8e0d905b6c57cf75fb-1603199520000',
-    ingredients: 'Грибы, Болгарский перец, Маслины, Орегано'
-  },
-  {
-    id: 16,
-    name: 'Чикен BBQ',
-    price: 399,
-    image: 'https://dpr-cdn.azureedge.net/api/medium/ProductOsg/Global/%D0%A7BBQ/NULL/270x270/RU?v=bdcd143961a64b8e0d905b6c57cf75fb-1603199520000',
+    name: 'Баварская',
+    price: 499,
+    image: 'https://dpr-cdn.azureedge.net/api/medium/ProductOsg/Global/_BAVAR/NULL/270x270/RU?v=bdcd143961a64b8e0d905b6c57cf75fb-1603397160000',
     ingredients: 'Грибы, Курица, Лук, Соус BBQ, Сыр Моцарелла'
   },
   {
-    id: 17,
-    name: 'Ромине',
-    price: 630,
-    image: 'https://dpr-cdn.azureedge.net/api/medium/ProductOsg/Global/_%D0%94%D0%9E%D0%9C%D0%98%D0%9D%D0%9E%D0%A1/NULL/270x270/RU?v=bdcd143961a64b8e0d905b6c57cf75fb-1603199520000',
-    ingredients: 'Бекон, Говядина, Грибы, Болгарский перец, Курица, Лук, Пепперони,'
+    id: 11,
+    name: '3 Мяса',
+    price: 349,
+    image: 'https://dpr-cdn.azureedge.net/api/medium/ProductOsg/Global/_3MEAT/NULL/270x270/RU?v=bdcd143961a64b8e0d905b6c57cf75fb-1603397160000',
+    ingredients: 'Грибы, Курица, Лук, Соус BBQ, Сыр Моцарелла'
   },
   {
-    id: 18,
-    name: 'Домашняя',
-    price: 250,
-    image: 'https://dpr-cdn.azureedge.net/api/medium/ProductOsg/Global/_DOMSV/NULL/270x270/RU?v=bdcd143961a64b8e0d905b6c57cf75fb-1603199520000',
-    ingredients: 'Ветчина, Томаты, Соус, Сыр Моцарелла'
+    id: 12,
+    name: 'Сицилийская',
+    price: 289,
+    image: 'https://dpr-cdn.azureedge.net/api/medium/ProductOsg/Global/%D0%A1%D0%98%D0%A6%D0%9B/NULL/270x270/RU?v=bdcd143961a64b8e0d905b6c57cf75fb-1603397160000',
+    ingredients: 'Грибы, Курица, Лук, Соус BBQ, Сыр Моцарелла'
   },
   {
-    id: 19,
-    name: 'Гавайская',
-    price: 599,
-    image: 'https://dpr-cdn.azureedge.net/api/medium/ProductOsg/Global/%D0%93%D0%90%D0%92%D0%90/NULL/270x270/RU?v=bdcd143961a64b8e0d905b6c57cf75fb-1603199520000',
-    ingredients: 'Ананас, Ветчина, Сыр Моцарелла'
+    id: 13,
+    name: 'Премьер',
+    price: 549,
+    image: 'https://dpr-cdn.azureedge.net/api/medium/ProductOsg/Global/%D0%9F%D0%A0%D0%95%D0%9C/NULL/270x270/RU?v=bdcd143961a64b8e0d905b6c57cf75fb-1603397160000',
+    ingredients: 'Грибы, Курица, Лук, Соус BBQ, Сыр Моцарелла'
   },
   {
-    id: 20,
-    name: 'Пепперони',
-    price: 500,
-    image: 'https://dpr-cdn.azureedge.net/api/medium/ProductOsg/Global/%D0%9F%D0%95%D0%9F%D0%95/NULL/270x270/RU?v=bdcd143961a64b8e0d905b6c57cf75fb-1603199520000',
-    ingredients: 'Пепперони, Сыр Моцарелла'
+    id: 14,
+    name: 'Дабл Пепперони',
+    price: 999,
+    image: 'https://dpr-cdn.azureedge.net/api/medium/ProductOsg/Global/_DPEP/NULL/270x270/RU?v=bdcd143961a64b8e0d905b6c57cf75fb-1603397160000',
+    ingredients: 'Грибы, Курица, Лук, Соус BBQ, Сыр Моцарелла'
+  },
+  {
+    id: 15,
+    name: 'Чикен Карри',
+    price: 899,
+    image: 'https://dpr-cdn.azureedge.net/api/medium/ProductOsg/Global/%D0%A7%D0%98%D0%9A%D0%90/NULL/270x270/RU?v=bdcd143961a64b8e0d905b6c57cf75fb-1603397160000',
+    ingredients: 'Грибы, Курица, Лук, Соус BBQ, Сыр Моцарелла'
   }
+  // {
+  //   id: 10,
+  //   name: 'Ромине',
+  //   price: 630,
+  //   image: 'https://dpr-cdn.azureedge.net/api/medium/ProductOsg/Global/_%D0%94%D0%9E%D0%9C%D0%98%D0%9D%D0%9E%D0%A1/NULL/270x270/RU?v=bdcd143961a64b8e0d905b6c57cf75fb-1603199520000',
+  //   ingredients: 'Бекон, Говядина, Грибы, Болгарский перец, Курица, Лук'
+  // },
+  // {
+  //   id: 11,
+  //   name: 'Домашняя',
+  //   price: 250,
+  //   image: 'https://dpr-cdn.azureedge.net/api/medium/ProductOsg/Global/_DOMSV/NULL/270x270/RU?v=bdcd143961a64b8e0d905b6c57cf75fb-1603199520000',
+  //   ingredients: 'Ветчина, Томаты, Соус, Сыр Моцарелла'
+  // },
+  // {
+  //   id: 12,
+  //   name: 'Гавайская',
+  //   price: 599,
+  //   image: 'https://dpr-cdn.azureedge.net/api/medium/ProductOsg/Global/%D0%93%D0%90%D0%92%D0%90/NULL/270x270/RU?v=bdcd143961a64b8e0d905b6c57cf75fb-1603199520000',
+  //   ingredients: 'Ананас, Ветчина, Сыр Моцарелла'
+  // },
+  // {
+  //   id: 13,
+  //   name: 'Пепперони',
+  //   price: 500,
+  //   image: 'https://dpr-cdn.azureedge.net/api/medium/ProductOsg/Global/%D0%9F%D0%95%D0%9F%D0%95/NULL/270x270/RU?v=bdcd143961a64b8e0d905b6c57cf75fb-1603199520000',
+  //   ingredients: 'Пепперони, Сыр Моцарелла'
+  // },
+  // {
+  //   id: 14,
+  //   name: '4 Сыра',
+  //   price: 800,
+  //   image: 'https://dpr-cdn.azureedge.net/api/medium/ProductOsg/Global/4CHEESE/NULL/270x270/RU?v=bdcd143961a64b8e0d905b6c57cf75fb-1603199520000',
+  //   ingredients: 'Соус Карбонара, Сыр Моцарелла, Сыр Пармезан, '
+  // },
+  // {
+  //   id: 15,
+  //   name: 'Веджи Fit & Fresh',
+  //   price: 859,
+  //   image: 'https://dpr-cdn.azureedge.net/api/medium/ProductOsg/Global/%D0%92%D0%95%D0%94%D0%96/NULL/270x270/RU?v=bdcd143961a64b8e0d905b6c57cf75fb-1603199520000',
+  //   ingredients: 'Грибы, Болгарский перец, Маслины, Орегано'
+  // },
+  // {
+  //   id: 16,
+  //   name: 'Чикен BBQ',
+  //   price: 399,
+  //   image: 'https://dpr-cdn.azureedge.net/api/medium/ProductOsg/Global/%D0%A7BBQ/NULL/270x270/RU?v=bdcd143961a64b8e0d905b6c57cf75fb-1603199520000',
+  //   ingredients: 'Грибы, Курица, Лук, Соус BBQ, Сыр Моцарелла'
+  // },
+  // {
+  //   id: 17,
+  //   name: 'Ромине',
+  //   price: 630,
+  //   image: 'https://dpr-cdn.azureedge.net/api/medium/ProductOsg/Global/_%D0%94%D0%9E%D0%9C%D0%98%D0%9D%D0%9E%D0%A1/NULL/270x270/RU?v=bdcd143961a64b8e0d905b6c57cf75fb-1603199520000',
+  //   ingredients: 'Бекон, Говядина, Грибы, Болгарский перец, Курица, Лук, Пепперони,'
+  // },
+  // {
+  //   id: 18,
+  //   name: 'Домашняя',
+  //   price: 250,
+  //   image: 'https://dpr-cdn.azureedge.net/api/medium/ProductOsg/Global/_DOMSV/NULL/270x270/RU?v=bdcd143961a64b8e0d905b6c57cf75fb-1603199520000',
+  //   ingredients: 'Ветчина, Томаты, Соус, Сыр Моцарелла'
+  // },
+  // {
+  //   id: 19,
+  //   name: 'Гавайская',
+  //   price: 599,
+  //   image: 'https://dpr-cdn.azureedge.net/api/medium/ProductOsg/Global/%D0%93%D0%90%D0%92%D0%90/NULL/270x270/RU?v=bdcd143961a64b8e0d905b6c57cf75fb-1603199520000',
+  //   ingredients: 'Ананас, Ветчина, Сыр Моцарелла'
+  // },
+  // {
+  //   id: 20,
+  //   name: 'Пепперони',
+  //   price: 500,
+  //   image: 'https://dpr-cdn.azureedge.net/api/medium/ProductOsg/Global/%D0%9F%D0%95%D0%9F%D0%95/NULL/270x270/RU?v=bdcd143961a64b8e0d905b6c57cf75fb-1603199520000',
+  //   ingredients: 'Пепперони, Сыр Моцарелла'
+  // }
 ]

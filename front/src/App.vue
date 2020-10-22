@@ -1,17 +1,21 @@
 <template>
   <div id="app">
     <div class="flex justify-between">
-      <router-link to="/">Home</router-link>
-      <div>
-        <span
-          class="material cart"
+      <router-link to="/">Пицца</router-link>
+      <div class="flex">
+        <button
+          :disabled="$route.path.includes('/cart')"
+          style="border: none;"
+          class="material button cart"
           @click="$router.push('/cart')"
         >
           shopping_cart
-        </span>
+        </button>
       </div>
     </div>
-    <router-view/>
+    <keep-alive>
+      <router-view/>
+    </keep-alive>
   </div>
 </template>
 
@@ -41,6 +45,10 @@
 
 .align-center {
   justify-content: center;
+  align-items: center;
+}
+
+.vertical-center {
   align-items: center;
 }
 
